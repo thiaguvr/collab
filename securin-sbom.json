@@ -1,0 +1,224 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:d20f8232-e14b-43d2-97b5-5792111ce39a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-16T16:06:00.913Z",
+    "tools": [
+      {
+        "vendor": "Securin Inc.",
+        "name": "AppSec",
+        "version": "0.1.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Securin Team",
+        "email": "aspm@securin.io"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "jquery",
+      "version": "3.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/jquery@3.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\DiscussIt\\Bootstrap\\js\\jquery-3.3.1.slim.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "bootstrap",
+      "version": "4.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/bootstrap@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/bootstrap@4.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\DiscussIt\\Bootstrap\\js\\bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Threading.Tasks.Extensions",
+      "version": "4.5.4",
+      "description": "Provides additional types that simplify the work of writing concurrent and asynchronous code.\r\n\r\nCommonly Used Types:\r\nSystem.Threading.Tasks.ValueTask<TResult>\r\n \r\n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\System.Threading.Tasks.Extensions.4.5.4\\System.Threading.Tasks.Extensions.4.5.4.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "version": "4.5.3",
+      "description": "Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.\r\n\r\nCommonly Used Types:\r\nSystem.Runtime.CompilerServices.Unsafe\r\n \r\n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \r\nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@4.5.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@4.5.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\System.Runtime.CompilerServices.Unsafe.4.5.3\\System.Runtime.CompilerServices.Unsafe.4.5.3.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Numerics.Vectors",
+      "version": "4.5.0",
+      "description": "Provides hardware-accelerated numeric types, suitable for high-performance processing and graphics applications.\r\n\r\nCommonly Used Types:\r\nSystem.Numerics.Matrix3x2\r\nSystem.Numerics.Matrix4x4\r\nSystem.Numerics.Plane\r\nSystem.Numerics.Quaternion\r\nSystem.Numerics.Vector2\r\nSystem.Numerics.Vector3\r\nSystem.Numerics.Vector4\r\nSystem.Numerics.Vector\r\nSystem.Numerics.Vector<T>\r\n \r\n30ab651fcb4354552bd4891619a0bdd81e0ebdbf",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\System.Numerics.Vectors.4.5.0\\System.Numerics.Vectors.4.5.0.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Memory",
+      "version": "4.5.5",
+      "description": "Provides types for efficient representation and pooling of managed, stack, and native memory segments and sequences of such segments, along with primitives to parse and format UTF-8 encoded text stored in those memory segments.\r\n\r\nCommonly Used Types:\r\nSystem.Span\r\nSystem.ReadOnlySpan\r\nSystem.Memory\r\nSystem.ReadOnlyMemory\r\nSystem.Buffers.MemoryPool\r\nSystem.Buffers.ReadOnlySequence\r\nSystem.Buffers.Text.Utf8Parser\r\nSystem.Buffers.Text.Utf8Formatter\r\n \r\n32b491939fbd125f304031c35038b1e14b4e3958 \r\nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Memory@4.5.5",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory@4.5.5",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\System.Memory.4.5.5\\System.Memory.4.5.5.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Buffers",
+      "version": "4.5.1",
+      "description": "Provides resource pooling of any type for performance-critical applications that allocate and deallocate objects frequently.\r\n\r\nCommonly Used Types:\r\nSystem.Buffers.ArrayPool<T>\r\n \r\n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \r\nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Buffers@4.5.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Buffers@4.5.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\System.Buffers.4.5.1\\System.Buffers.4.5.1.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Portable.BouncyCastle",
+      "version": "1.9.0",
+      "description": "BouncyCastle portable version with support for .NET 4, .NET Standard 2.0",
+      "licenses": [],
+      "purl": "pkg:nuget/Portable.BouncyCastle@1.9.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Portable.BouncyCastle@1.9.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\Portable.BouncyCastle.1.9.0\\Portable.BouncyCastle.1.9.0.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MimeKit",
+      "version": "3.4.1",
+      "description": "MimeKit is an Open Source library for creating and parsing MIME, S/MIME and PGP messages on desktop and mobile platforms. It also supports parsing of Unix mbox files.\r\n\r\n      Unlike any other .NET MIME parser, MimeKit's parser does not need to parse string input nor does it use a TextReader. Instead, it parses raw byte streams, thus allowing it to better support undeclared 8bit text in headers as well as message bodies. It also means that MimeKit's parser is significantly faster than other .NET MIME parsers.\r\n\r\n      MimeKit's parser also uses a real tokenizer when parsing the headers rather than regex or string.Split() like most other .NET MIME parsers. This means that MimeKit is much more RFC-compliant than any other .NET MIME parser out there, including the commercial implementations.\r\n\r\n      In addition to having a far superior parser implementation, MimeKit's object tree is not a derivative of System.Net.Mail objects and thus does not suffer from System.Net.Mail's limitations.\r\n\r\n      API documentation can be found on the web at http://www.mimekit.net/docs\r\n\r\n      For those that need SMTP, POP3 or IMAP support, check out https://github.com/jstedfast/MailKit",
+      "licenses": [],
+      "purl": "pkg:nuget/MimeKit@3.4.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MimeKit@3.4.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\MimeKit.3.4.1\\MimeKit.3.4.1.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform",
+      "version": "2.0.1",
+      "description": "Replacement CodeDOM providers that use the new .NET Compiler Platform (\"Roslyn\") compiler as a service APIs. This provides support for new language features in systems using CodeDOM (e.g. ASP.NET runtime compilation) as well as improving the compilation performance of these systems.\r\n        \r\n        This package was built from the source at https://github.com/aspnet/RoslynCodeDomProvider/commit/12975a5a1616dbefac02ba8113204b59cba7eeec",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeDom.Providers.DotNetCompilerPlatform@2.0.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MailKit",
+      "version": "3.4.1",
+      "description": "MailKit is an Open Source cross-platform .NET mail-client library that is based on MimeKit and optimized for mobile devices.\r\n\r\nFeatures include:\r\n* HTTP, Socks4, Socks4a and Socks5 proxy support.\r\n* SASL Authentication via ANONYMOUS, CRAM-MD5, DIGEST-MD5, LOGIN, NTLM, OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-256, SCRAM-SHA-512 and XOAUTH2.\r\n* A fully-cancellable SmtpClient with support for STARTTLS, 8BITMIME, BINARYMIME, ENHANCEDSTATUSCODES, SIZE, DSN, PIPELINING and SMTPUTF8.\r\n* A fully-cancellable Pop3Client with support for STLS, UIDL, APOP, PIPELINING, UTF8, and LANG.\r\n* A fully-cancellable ImapClient with support for ACL, QUOTA, LITERAL+, IDLE, NAMESPACE, ID, CHILDREN, LOGINDISABLED, STARTTLS, MULTIAPPEND, UNSELECT, UIDPLUS, CONDSTORE, ESEARCH, SASL-IR, COMPRESS, WITHIN, ENABLE, QRESYNC, SORT, THREAD, ANNOTATE, LIST-EXTENDED, ESORT, METADATA / METADATA-SERVER, NOTIFY, FILTERS, LIST-STATUS, SORT=DISPLAY, SPECIAL-USE / CREATE-SPECIAL-USE, SEARCH=FUZZY, MOVE, UTF8=ACCEPT / UTF8=ONLY, LITERAL-, APPENDLIMIT, STATUS=SIZE, OBJECTID, REPLACE, SAVEDATE, XLIST, and X-GM-EXT1.\r\n* Client-side sorting and threading of messages (the Ordinal Subject and the Jamie Zawinski threading algorithms are supported).\r\n* Asynchronous versions of all methods that hit the network.\r\n* S/MIME, OpenPGP, DKIM and ARC support via MimeKit.\r\n* Microsoft TNEF support via MimeKit.",
+      "licenses": [],
+      "purl": "pkg:nuget/MailKit@3.4.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MailKit@3.4.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\DiscussIt-DotNet-Framework-Project\\packages\\MailKit.3.4.1\\MailKit.3.4.1.nupkg"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}
